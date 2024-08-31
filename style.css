@@ -1,0 +1,240 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(3436600.jpg);
+    background-size: cover;
+  }
+  
+  header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 20px;
+  }
+  ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    justify-content: space-evenly;
+.menu{
+    text-decoration: none;
+    color: white;
+}
+
+
+  }
+  ul li{
+    color: #fff;
+    display: grid;
+    place-content: center;
+    margin: 0;
+    color: white;
+  }
+  nav ul li:hover a {
+    color: #0E86D4;
+  }
+
+  nav ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: palegreen;
+    margin: auto;
+  }
+  nav ul li:hover::after {
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .nav-section{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 40px;
+    height: 250px;
+    color: white;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+  }
+
+
+  section {
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 190px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+  }
+  
+  #about {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    transition: background-position 0.5s ease;
+  }
+  
+  #about:hover {
+    background-position: 100% 100%;
+  }
+  
+  #skills {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #skills li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  #skills li:hover {
+    transform: scale(1.1);
+  }
+  
+  #experience {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  #experience ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #experience li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #projects {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+
+  }
+
+  
+  #projects li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+  }
+  
+  #projects li:hover {
+    transform: scale(1.1);
+  }
+  
+  #contact {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  #contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+#contact h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#contact h1::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: palegreen;
+    margin: auto;
+  }
+
+#contact h1:hover::after {
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  #contact li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  i{
+    transform: scale(3.0);
+  }
+  i:hover{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border:2px solid rgba(255, 255, 255, 0.18);
+  }
+
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        width: 100%;
+        height: 30px;
+        backdrop-filter: blur(30px);
+        box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+        border:2px solid rgba(255, 255, 255, 0.18);
+    }
